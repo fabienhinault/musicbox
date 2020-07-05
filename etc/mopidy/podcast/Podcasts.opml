@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml>
+  <body>
+    <outline text="TED Radio Hour" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=510298" />
+    <outline text="BBC Radio Podcasts" type="include" url="http://www.bbc.co.uk/podcasts.opml" />
+    <outline text="gpodder.net - Python" type="include" url="http://gpodder.net/search.opml?q=Python" />
+    <outline text="Les cours du college de France" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_11921.xml" />
+    <outline text="Questions d'islam" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_11921.xml" />
+    <outline text="La methode scientifique" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_14312.xml" />
+    <outline text="Beaumarchais" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_20178.xml" />
+    <outline text="La conversation scientifique" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_13957.xml" />
+    <outline text="Dans 18 ans" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_20181.xml" />
+    <outline text="La fabrique de l'histoire" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_10076.xml" />
+    <outline text="Notre Dame de Paris" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_20095.xml" />
+    <outline text="Theatre et compagnie" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_11498.xml" />
+    <outline text="Les grandes traversees" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_14373.xml" />
+    <outline text="juke box" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_16999.xml" />
+    <outline text="LSD la serie documentaire" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_10177.xml" />
+    <outline text="Matiere a penser" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_16274.xml" />
+    <outline text="Les pieds sur terre" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_10078.xml" />
+    <outline text="Repliques" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_13397.xml" />
+    <outline text="La serie musicale d'ete" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_13959.xml" />
+    <outline text="Une histoire particuliere" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_16408.xml" />
+    <outline text="L'epingle du jeu" type="rss" xmlUrl="http://radiofrance-podcast.net/podcast09/rss_20179.xml" />
+  </body>
+</opml>
