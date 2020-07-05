@@ -9,8 +9,10 @@ sudo mkdir -p /opt/musicbox/webclient/
 
 sudo chown -R  mopidy /opt/musicbox
 
+alsamixer pour monter le son de sortie.
 
-##Troubleshooting##
+##Troubleshooting
+
 sudo mopidyctl config
 
 WARNING  /etc/mopidy/mopidy.conf has errors, line 4, 8, 14, 16, 57, 61, 63, 65, 67, 69, 94 has been ignored.
