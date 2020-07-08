@@ -11,6 +11,10 @@ sudo chown -R  mopidy /opt/musicbox
 
 alsamixer pour monter le son de sortie.
 
+sudo bash -c 'cat > /etc/udev/rules.d/99-input.rules' << EOF
+KERNEL=="event*", NAME="input/%k", MODE="660", GROUP="audio"
+EOF
+
 ##Troubleshooting
 
 sudo mopidyctl config
