@@ -37,7 +37,9 @@ class EvtDevAgent(object):
             evdev.ecodes.KEY_PREVIOUSSONG: self._prev_track,
             evdev.ecodes.KEY_VOLUMEUP: self._volume_up,
             evdev.ecodes.KEY_VOLUMEDOWN: self._volume_down,
-            evdev.ecodes.KEY_MUTE: self._mute
+            evdev.ecodes.KEY_MUTE: self._mute,
+            evdev.ecodes.KEY_FASTFORWARD: self._fast_forward,
+            evdev.ecodes.KEY_REWIND: self._rewind
         }
         
         # This will initiate a refresh of all attached devices and initiate timeouts
@@ -164,6 +166,14 @@ class EvtDevAgent(object):
     def _prev_track(self):
         self.core.playback.previous()
         logger.info('EvtDevAgent has selected previous track')
+
+    def _fast_forward(self):
+        # self.core.playback.next()
+        logger.info('EvtDevAgent _fast_forward')
+
+    def _rewind(self):
+        # self.core.playback.previous()
+        logger.info('EvtDevAgent _rewind')
 
     @staticmethod
     def _open_device_list(devices):
